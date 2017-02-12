@@ -1,0 +1,18 @@
+".container" : {
+  	backgroundColor:'fff'
+}
+".bold":{
+	font:{
+		fontWeight:'bold'
+	}
+}
+
+".italic":{
+	font:{
+		fontStyle:'italic' 
+	}
+}
+
+".red":{
+	color:'red'
+}

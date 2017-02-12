@@ -1,0 +1,11 @@
+<Alloy>
+	<Window title="Images" backgroundColor="white" >
+		<View class="container" layout="vertical">
+			<ImageView image="/images/appicon.png"></ImageView>
+			<View layout="horizontal">
+				<Button id="btnCamera" title="Camera"></Button>	
+				<Button id="btnGallery" title="Gallery"></Button>	
+			</View>	
+		</View>
+	</Window>
+</Alloy>

@@ -1,0 +1,21 @@
+<Alloy>
+	<Window title="Simple" backgroundColor="#fff" >
+		<View class="container" layout="vertical" >
+			<Label id="lblBasic" color="#000">Some text to style</Label>
+			<View layout="horizontal">
+				
+					<Button id="btnBold" title="Bold" onClick="bold"></Button>
+					<Button id="btnItalic" title="Italic" onClick="italic"></Button>
+					<Button id="btnRed" title="Red" onClick="red"></Button>	
+				
+				
+		</View>	
+		</View>
+		
+		<Menu platform="android">
+	      <MenuItem title="Back" onClick="gotoHome" />
+	      
+    	</Menu>
+	</Window>	
+	
+</Alloy>

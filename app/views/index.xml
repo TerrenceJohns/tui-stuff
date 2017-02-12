@@ -1,0 +1,14 @@
+<Alloy>
+	<Window class="container" title="All Examples Application">
+		<Label id="lblWelcome" >Welcome to my all examples app</Label>
+		
+	<Menu platform="android">
+      <MenuItem title="Simple" onClick="gotoBasic" />
+      <MenuItem title="Images" onClick="gotoImageStuff" />
+      <MenuItem title="Sounds" />
+      <MenuItem title="Videos" />
+      <MenuItem title="Data" />
+      <MenuItem title="Geolocation" />
+    </Menu>
+	</Window>
+</Alloy>
